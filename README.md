@@ -7,4 +7,4 @@ Week 2 to 3: Introductary Study of CNN
 
 Week 4: How Beautiful are these Animals (Simple application of Convnet, Overfitting not finished yet)
 
-Week 5 to 6: AutoEncoder on the Human Face images
+Week 5: AutoEncoder on the Human Face images and Image denoising
