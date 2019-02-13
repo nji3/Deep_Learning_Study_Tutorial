@@ -6,3 +6,5 @@ Week 1: The Overview of Gradient Descent Algorithms with momentum
 Week 2 to 3: Introductary Study of CNN
 
 Week 4: How Beautiful are these Animals (Simple application of Convnet, Overfitting not finished yet)
+
+Week 5 to 6: AutoEncoder on the Human Face images
