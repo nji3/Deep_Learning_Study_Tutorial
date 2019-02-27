@@ -10,3 +10,5 @@ Week 4: How Beautiful are these Animals (Simple application of Convnet, Overfitt
 Week 5: AutoEncoder on the Human Face images and Image denoising
 
 Week 6: AutoEncoder-Interpolation
+
+Week 7: Autoencoder with Latent Variable Layer and Variational Autoencoder(VAE)
