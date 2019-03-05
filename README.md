@@ -12,3 +12,5 @@ Week 5: AutoEncoder on the Human Face images and Image denoising
 Week 6: AutoEncoder-Interpolation
 
 Week 7: Autoencoder with Latent Variable Layer and Variational Autoencoder(VAE)
+
+Week 8-9: Tensorflow Intro for VAE and GAN
