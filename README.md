@@ -1,6 +1,10 @@
-# Thesis_Study_of_Deep_Learning
+# Deep Learning Study Tutorial
 
 ## Optimization
+
+<div align="center">
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/readme_images/optim_gd.png" width="400px"</img> 
+</div>
 
 Gradient Descent is a very common scheme of optimization algorithms. It is very useful to find the global/local minimum of the loss function we used to do the training of the model. The most foundmental types of gradient descent methods are the batch gradient descent, mini-batch gradient descent and the stochastic gradient descent. The convergence of these optimization algorithms is proven years ago.
 
