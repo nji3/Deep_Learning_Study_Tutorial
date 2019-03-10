@@ -1,4 +1,4 @@
-# Deep Learning Study Tutorial
+# Convolutional Neural Networks
 
 ## Introductary Study of CNN
 
