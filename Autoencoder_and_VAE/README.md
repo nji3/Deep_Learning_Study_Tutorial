@@ -30,7 +30,41 @@ Autoencoder model can also be used as a efficient tool to do denoising task. The
         <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Autoencoder_and_VAE/readme_images/ae_1c_denoise.png" width="400px"</img> 
 </div>
 
-### 
+### Autoencoder Interpolation
+
+Autoencoder model with latent layer (which is a fully connected layer after the ConvNets) could do a image shifting process called the Interpolation. In this notebook, I trained the autoencoder model on both the MNIST handwritten data and the ECVPU face images. To do the interpolation, just choose the two images you want and find out the vetors respect to these two images in the latent layer. And then we could calculate the difference between these two vectors and linearly seperate them evenly by a selected number of steps. When we put all these step vectors into the generator, we could visualize how one image shifts to another one.
+
+Here are the Interpolation examples for the MNIST data:
+
+<div align="center">
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Autoencoder_and_VAE/readme_images/ae_mnist_ip1.png" width="400px"</img> 
+</div>
+<div align="center">
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Autoencoder_and_VAE/readme_images/ae_mnist_ip2.png" width="400px"</img> 
+</div>
+<div align="center">
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Autoencoder_and_VAE/readme_images/ae_mnist_ip3.png" width="400px"</img> 
+</div>
+
+Here are the Interpolation examples for the Face images:
+
+Male transfer to male
+
+<div align="center">
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Autoencoder_and_VAE/readme_images/ae_face_ipm.png" width="400px"</img> 
+</div>
+
+Female transfer to female
+
+<div align="center">
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Autoencoder_and_VAE/readme_images/ae_face_ipf.png" width="400px"</img> 
+</div>
+
+Male transfer to female
+
+<div align="center">
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Autoencoder_and_VAE/readme_images/ae_face_ipmf.png" width="400px"</img> 
+</div>
 
 ## Variational Autoencoder (VAE)
 
