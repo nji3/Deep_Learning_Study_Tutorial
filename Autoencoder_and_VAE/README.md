@@ -53,3 +53,19 @@ The VAE is a unsupervised learning method used to generate images similar to the
 </div>
 
 Not like the VAE, the GAN is a competition between the Generator and the Discriminator. VAE tries to learn a distribution that catches/averages all the modes of the original distribution. However, GAN just want to approximate one mode of the true distribution perfectly. This is one reason that GAN could generate better images. We would want to train the GAN model in seperated steps. First generator would genrate new images and the combined data of generated images and the true images are used to train the discriminator for a binary classification task. Then the discriminator will be frozen, and the generator will be trained in a way of generating fake images with labels saying that these images are real. By iterating these two steps, we could finally have very good fake images.
+
+Record the learning materials for thesis
+
+Week 1: The Overview of Gradient Descent Algorithms with momentum
+
+Week 2 to 3: Introductary Study of CNN
+
+Week 4: How Beautiful are these Animals (Simple application of Convnet, Overfitting not finished yet)
+
+Week 5: AutoEncoder on the Human Face images and Image denoising
+
+Week 6: AutoEncoder-Interpolation
+
+Week 7: Autoencoder with Latent Variable Layer and Variational Autoencoder(VAE)
+
+Week 8-9: Tensorflow Intro for VAE and GAN
