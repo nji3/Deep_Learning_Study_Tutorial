@@ -68,4 +68,13 @@ Male transfer to female
 
 ## Variational Autoencoder (VAE)
 
-###
+The implementation of the VAE model and the training to 1000 celebrities' face images is presented in the notebook
+
+### VAE MNIST Tensorflow
+
+In this notebook, a tensorflow implementation of the VAE model on the MNIST data is presented. Left below is the training loss for the liklihood and the KL divergence. Right below is the reconstructed handwritten digits.
+
+<div align="center">
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Autoencoder_and_VAE/readme_images/vae_mnist_loss.png" width="400px"</img> 
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Autoencoder_and_VAE/readme_images/vae_mnist.png" width="400px"</img> 
+</div>
