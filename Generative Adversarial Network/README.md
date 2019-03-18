@@ -26,5 +26,5 @@ My training model here randomly sample 20 images from the training set to train 
 The result is here:
 
 <div align="center">
-        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Generative%20Adversarial%20Network/readme_images/GAN_Keras_2.png" width="400px"</img>
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Generative%20Adversarial%20Network/readme_images/GAN_Keras_2.png" width="800px"</img>
 </div>
