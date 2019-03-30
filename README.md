@@ -46,6 +46,26 @@ By using the ConvNet, the decoder layers would be called Deconv layers. It would
 
 The VAE is a unsupervised learning method used to generate images similar to the training images. Not like the simple autoencoder model, the VAE tries to learn the distribution of the latent layer from the distribution of the training data and then use the laten layer distribution to learn an approximation distribution to the true distribution. There are several tricks used in the design of the VAE structure and we could explian it in a way of EM algorithm. I will write the detailed derivation later.
 
+## Conditional Variational Autoencoder
+
+Conditional Variational Autoencoder is based on the assumption of VAE with a improvement of introducing new conditioning parts for the probability density. We could look at the object functions for VAE and CVAE. The difference is very clear.
+
+The VAE:
+
+<div align="center">
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/readme_images/VAE_object.png" width="400px"</img> 
+</div>
+
+The CVAE:
+
+<div align="center">
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/readme_images/CVAE_object.png" width="400px"</img> 
+</div>
+
+Now, the real latent variable is distributed under P(z|c), That is, it’s now a conditional probability distribution (CPD). Think about it like this: for each possible value of c, we would have a P(z). We could also use this form of thinking for the decoder.
+
+This would give a chance to learn the distribution of specific groups of images. Like the hand writing digits seperated by labels, the human face images seperated by genders or even the image inpainting conditioning on the incomplete image.
+
 ## Generative Adversarial Network
 
 <div align="center">
