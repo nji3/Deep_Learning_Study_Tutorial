@@ -53,13 +53,13 @@ Conditional Variational Autoencoder is based on the assumption of VAE with a imp
 The VAE:
 
 <div align="center">
-        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/readme_images/VAE_object.png" width="400px"</img> 
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/readme_images/VAE_object.png" width="600px"</img> 
 </div>
 
 The CVAE:
 
 <div align="center">
-        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/readme_images/CVAE_object.png" width="400px"</img> 
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/readme_images/CVAE_object.png" width="600px"</img> 
 </div>
 
 Now, the real latent variable is distributed under P(z|c), That is, it’s now a conditional probability distribution (CPD). Think about it like this: for each possible value of c, we would have a P(z). We could also use this form of thinking for the decoder.
