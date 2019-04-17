@@ -3,7 +3,7 @@
 The dataset I used here is just the CIFAR10 data with the designed missing part in the image.
 
 <div align="center">
-        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Image Fill/readme_image/car_incomp_exp.png" width="600px"</img> 
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Image Fill/readme_image/car_incomp_exp.png" width="800px"</img> 
 </div>
 
 ## Image Fill by Direct Convolution
@@ -17,13 +17,13 @@ By limited training process, we could take a look at the result for the training
 Training images filled:
 
 <div align="center">
-        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Image Fill/readme_image/car_conv_fill_train.png" width="600px"</img> 
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Image Fill/readme_image/car_conv_fill_train.png" width="800px"</img> 
 </div>
 
 Testing images filled:
 
 <div align="center">
-        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Image Fill/readme_image/car_conv_fill_test.png" width="600px"</img> 
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Image Fill/readme_image/car_conv_fill_test.png" width="800px"</img> 
 </div>
 
 The reconstruction can give a reasonable fill-in but still very blur. It generally just fill in the colors by the nearby color patterns but it cannot give a very good reconstruction for some detailed small missing patterns like the rear mirrows or the car boundaries.
