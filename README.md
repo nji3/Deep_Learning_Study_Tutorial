@@ -73,3 +73,13 @@ This would give a chance to learn the distribution of specific groups of images.
 </div>
 
 Not like the VAE, the GAN is a competition between the Generator and the Discriminator. VAE tries to learn a distribution that catches/averages all the modes of the original distribution. However, GAN just want to approximate one mode of the true distribution perfectly. This is one reason that GAN could generate better images. We would want to train the GAN model in seperated steps. First generator would genrate new images and the combined data of generated images and the true images are used to train the discriminator for a binary classification task. Then the discriminator will be frozen, and the generator will be trained in a way of generating fake images with labels saying that these images are real. By iterating these two steps, we could finally have very good fake images.
+
+## Image Fill
+
+I'm currently working on a thesis for filling incomplete images. It's generally a intuitive guide about how to use popular deep learning methods to accomplish the image impainting tasks. For real life images, it would be better to fill any random holes. Here for convinence, I would just use the images with missing patches in the center. Below is an example.
+
+<div align="center">
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/readme_images/car_incomp_exp.png" width="400px"</img> 
+</div>
+
+What's the application for this task? In real life, if something you don't want appears in the image, you could just wipe that part out and reconstruct it. This could be a simple example of why we want to do this task.
