@@ -79,7 +79,7 @@ Not like the VAE, the GAN is a competition between the Generator and the Discrim
 I'm currently working on a thesis for filling incomplete images. It's generally a intuitive guide about how to use popular deep learning methods to accomplish the image impainting tasks. For real life images, it would be better to fill any random holes. Here for convinence, I would just use the images with missing patches in the center. Below is an example.
 
 <div align="center">
-        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/readme_images/car_incomp_exp.png" width="400px"</img> 
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/readme_images/car_incomp_exp.png" width="800px"</img> 
 </div>
 
 What's the application for this task? In real life, if something you don't want appears in the image, you could just wipe that part out and reconstruct it. This could be a simple example of why we want to do this task.
