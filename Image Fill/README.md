@@ -27,3 +27,13 @@ Testing images filled:
 </div>
 
 The reconstruction can give a reasonable fill-in but still very blur. It generally just fill in the colors by the nearby color patterns but it cannot give a very good reconstruction for some detailed small missing patterns like the rear mirrows or the car boundaries.
+
+## Image Fill by AutoEncoder
+
+The autoencoder is a common tech in the image reconstruction tasks. I did some of the instruction notebooks about different autoencoders application in the other folder. Here I will try the autoencoder for the image filling.
+
+There are two ways for this task, one is input the incomplete image and return the whole image with the missing part filled. The other way is to input the incomplete image and return the reconstruct missing part so that we can put back into the missing hole. There would be some difference in the constructions of our models.
+
+## Image Fill by CVAE
+
+I introduced using the CVAE to do image filling before on the MNIST dataset. Here, I would dig more about it in the CIFAR10 dataset with a more complicated structure. Still, I'm going to do both reconstruct the whole image and reconstruct only the missing part.
