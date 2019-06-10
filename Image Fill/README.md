@@ -1,5 +1,9 @@
 # Image Fill
 
+Incomplete image filling, usually called image inpainting, is one common task in the basic computer vision field. This task usually has an input image partially masked and returns an output image with the missing part filled in convincing contents. To make the filling patches visually plausible becomes the most difficult obstacle to conquer. A very huge difference between the human and the machine is that the human beings have the ability to imagine similar things based on a very small set of examples. However, the machine needs to learn the patterns from very huge training datasets. When it comes to the image inpainting task, it won’t be a huge problem for people to know what is missing when they see an incomplete image. Human beings could fill the missing image quickly by reading in the background con- text. So when the machine tries to solve this problem, we would want it to give something not only resonable but also natural.
+
+Typical applications of the incomplete image filling are related to the image editing. These applications include the image watermark removal and damaged photos restoration. Though the image watermark removal might involve the copy right problem, the damaged photos restoration is commonly needed in people’s life. Photo taking and editing are very important applications in smart phones. People love to take photo and edit the photo in a way they like. If people find that something appears in the photo that make the photo not perfect enough, people would just want the smart phone to remove that part and restore some alternative contents to fill in. That’s why solving image inpainting issue becomes more and more popular.
+
 The dataset I used here is just the CIFAR10 data with the designed missing part in the image.
 
 <div align="center">
