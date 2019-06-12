@@ -17,7 +17,7 @@ The dimension of each hidden layer is usually designed by ourself. However, when
 Each stage of this process consists of two parts: derivation on the hidden layer and the derivation on the parameters for each layer. The derivations can be shown by two formulas.
 
 <div align="center">
-        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Methodology/readme_images/nn_3.png" width="400px"</img> 
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Methodology/readme_images/nn_3.png" width="200px"</img> 
 </div>
 
 Based on our choice of loss function, we can do gradient descent based algorithms such as stochastic gradient descent with the momentum or the Adam algorithm to train the neural networks.
