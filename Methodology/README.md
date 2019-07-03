@@ -56,5 +56,5 @@ When coding for the convolution networks, there are two more important parameter
 W is the input volume size, F is the size of the filter in the receptive field size, S is the stride and P is the amount of zero-padding used on the border. Only If the result is an integer, we could consider the output size would be a fit or valid. For instance, a 7 x 7 input and a 3x3 filter with stride1and pad0 will give a 5x5 output. After one layer of the convolution network, we could add a pooling layer to stabilize the extracted pattern and an activation layer to reduce the activated neurons. It all depends on how we are going to design the structure.
 
 <div align="center">
-        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Methodology/readme_images/cnn_structure.png" width="200px"</img> 
+        <img src="https://github.com/nji3/Deep_Learning_Study_Tutorial/blob/master/Methodology/readme_images/cnn_structure.png" width="400px"</img> 
 </div>
